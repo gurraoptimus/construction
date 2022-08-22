@@ -15,9 +15,7 @@ header {
   align-items: center;
   text-align: center;
   min-width: 100vh;
- 
   background-image: url("background.jpg");
- 
   background-size: cover;
   background-position: center;
   position: relative;
