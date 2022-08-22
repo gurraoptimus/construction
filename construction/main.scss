@@ -18,4 +18,10 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    main-width: 100vh;
+    
+    background-image: url("background.jpg");
 }
