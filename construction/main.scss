@@ -55,5 +55,8 @@ font-weight: 400;
 @include breakpoint(768px);
 font-size: 36px;
         }
+h2 {
+    color: #fff;
+}
     }
 }
