@@ -1,4 +1,4 @@
 // media Query Mixin
-@mixin break {
-    
+@mixin breakpoint ($breakpoint) {
+    @media screen and (max)
 }
