@@ -62,6 +62,12 @@ h2 {
    font-weight: 900;
     @include breakpoint(480px);
     font-size: 56px;
+    margin: 30px 0px;
         } 
     }
+
+.countdown{
+    
+}
+
 }
