@@ -47,16 +47,20 @@ header {
 
 h1 {
    color: #fff;
-   font-size: 32px;
+   font-size: 28px;
    font-weight: 900;
 span{
 font-weight: 400;
 }   
-@include breakpoint(768px);
+@include breakpoint(480px);
 font-size: 36px;
-        }
+}
+
 h2 {
     color: #fff;
-}
+    font-size: 42px;
+} 
+
+
     }
 }
