@@ -28,5 +28,12 @@ header {
     background-position: center;
 
     position: relative;
-    
+
+    &:after {
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }

@@ -19,4 +19,11 @@ header {
   background-size: cover;
   background-position: center;
   position: relative;
+}
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=main.css.map */
