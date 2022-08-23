@@ -52,7 +52,7 @@ h1 {
 span{
 font-weight: 400;
 }   
-@include breakpoint(480px);
+@include breakpoint(768px);
 font-size: 36px;
 }
 
