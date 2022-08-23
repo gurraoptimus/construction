@@ -2,9 +2,7 @@
 @mixin breakpoint ($breakpoint) {
     @media screen and (min-width: $breakpoint) { 
         @content; }
-
-    }
-
+}
 *{
     margin: 0;
     padding: 0;
