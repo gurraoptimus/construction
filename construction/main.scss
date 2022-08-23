@@ -56,7 +56,13 @@ font-weight: 400;
 @include breakpoint(480px);
 font-size: 36px;
 }
+@include breakpoint(768px){
+    font-size: 42px;
+}
 
+@include breakpoint(1024px){
+    font-size: 56px;
+}
 h2 {
     color: #FFF;
     font-size: 42px;
@@ -64,11 +70,11 @@ h2 {
     margin: 30px 0px;
    
    
-    @include breakpoint(480px) { 
-        font-size: 56px;
+@include breakpoint(480px) { 
+    font-size: 56px;
     }
 @include breakpoint(768px){
-    font-size: 72px;
+    font-size: 42px;
 }
 }
 
@@ -77,11 +83,11 @@ h2 {
     font-size: 36px;
     font-weight: 400;
 }
-    @include breakpoint(480px) {
-        font-size: 42px;
+@include breakpoint(480px) {
+    font-size: 42px;
     }
-    @include breakpoint(768px) {
-        font-size: 56px;    
+@include breakpoint(768px) {
+    font-size: 56px;    
         }    
     }
 }

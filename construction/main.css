@@ -44,19 +44,44 @@ header .content h1 {
 header .content h1 span {
   font-weight: 400;
 }
+@media screen and (min-width: 768px) {
+  header .content {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content {
+    font-size: 56px;
+  }
+}
 header .content h2 {
   color: #FFF;
   font-size: 42px;
   font-weight: 900;
   margin: 30px 0px;
 }
-header .countdown {
+@media screen and (min-width: 480px) {
+  header .content h2 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h2 {
+    font-size: 42px;
+  }
+}
+header .content .countdown {
   color: #FFF;
   font-size: 36px;
   font-weight: 400;
 }
 @media screen and (min-width: 480px) {
-  header {
+  header .content {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content {
     font-size: 56px;
   }
 }/*# sourceMappingURL=main.css.map */
