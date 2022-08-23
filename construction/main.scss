@@ -49,7 +49,7 @@ h1 {
    color: #fff;
    font-size: 28px;
    font-weight: 900;
-   
+
 span {
 font-weight: 400;
 }   
@@ -62,12 +62,17 @@ h2 {
     font-size: 42px;
    font-weight: 900;
     margin: 30px 0px;
-   @include breakpoint(480px);     
+   @include breakpoint(480px)    
         } 
     }
 
-.countdown{
-
+.countdown {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
 }
+    @include breakpoint(480px){
+        font-size: 56px;
+    }
 
 }
