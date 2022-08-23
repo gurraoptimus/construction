@@ -23,7 +23,7 @@ header {
     text-align: center;
     min-width: 100vh;
     
-    background-image: url("background.png");
+    background-image: url('background.png');
     background-size: cover;
     background-position: center;
 
@@ -49,7 +49,8 @@ h1 {
    color: #fff;
    font-size: 28px;
    font-weight: 900;
-span{
+   
+span {
 font-weight: 400;
 }   
 @include breakpoint(480px);
@@ -57,7 +58,7 @@ font-size: 36px;
 }
 
 h2 {
-    color: #fff;
+    color: #FFF;
     font-size: 42px;
    font-weight: 900;
     margin: 30px 0px;
