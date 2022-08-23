@@ -49,4 +49,14 @@ header .content h2 {
   font-size: 42px;
   font-weight: 900;
   margin: 30px 0px;
+}
+header .countdown {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+}
+@media screen and (min-width: 480px) {
+  header {
+    font-size: 56px;
+  }
 }/*# sourceMappingURL=main.css.map */
