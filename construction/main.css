@@ -15,7 +15,7 @@ header {
   align-items: center;
   text-align: center;
   min-width: 100vh;
-  background-image: url("Ubuntu-Tux.jpg");
+  background-image: url("background.png");
   background-size: cover;
   background-position: center;
   position: relative;
