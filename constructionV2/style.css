@@ -2,12 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
-head{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Ubuntu-Tux.jpg);
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
 }
 .soon{
-
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+color: #fff;
 }
