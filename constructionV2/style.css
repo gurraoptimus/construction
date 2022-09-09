@@ -15,4 +15,11 @@ position: absolute;
 transform: translate(-50%,-50%);
 color: #fff;
 }
-.l
+h1{
+    font-size: 60px;
+    letter-spacing: 15;
+}
+hr{
+    width: 50%;
+    margin: 30;
+}
